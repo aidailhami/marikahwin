@@ -243,7 +243,7 @@ input[type=email]{
     <!--Main Content-->
     <div class="content">
         <!--User Profile content-->
-        <form class="UserProfileView" method="POST" action="../.php">
+        <form class="UserProfileView" method="POST" action="../BusinessServices/Controller/UserProfileController.php">
                     <label for="IC">No. Kad Pengenalan</label><a>: &nbsp;</a>
                     <input type="text" id="UserIC" name="UserIC">
                  <br>
@@ -260,7 +260,7 @@ input[type=email]{
                     <input type="email" class id="UserEmail" required name="UserEmail">&nbsp; &nbsp;<i class='fas fa-pencil-alt' style='font-size:24px;color:grey'></i>
                     <br>
             <div class="submitarea">
-                <input class="submitbtn" type="submit" value="KEMASKINI">
+                <input class="submitbtn" type="submit" name="update" value="KEMASKINI">
             </div>
         </form>
     </div>
