@@ -12,7 +12,7 @@
     $USERPHONENUMBER = $_POST['User_PhoneNumber'];
     $USEREMAIL = $_POST['User_Email'];
 
-    $query = "INSERT into user (UserIC,User_Name, User_Gender, User_PhoneNumber, User_Email) values ('$USERIC', '$USERNAME', '$USERGENDER', '$USERPHONENUMBER', '$USEREMAIL' ) ";
+    $query = "UPDATE user  SET UserIC = '$USERIC', User_Name = '$USERNAME' , User_Gender = '$USERGENDER', User_PhoneNumber = '$USERPHONENUMBER', User_Email =  '$USEREMAIL' ;";
 
     $query_run = mysqli_query($connection,$query);
 
