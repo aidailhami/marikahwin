@@ -1,0 +1,207 @@
+.sidebar{
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+    width: 20%;
+}
+
+ul{
+    list-style-type:none;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+    background-color: white;
+    border-radius: 8px;
+}
+
+a:visited{
+    background-color:white;
+    border-radius: 8px;
+}
+
+.navbar li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration:none;
+}
+
+.user{
+    text-align: left;
+    margin-left:20px;
+}
+
+body{
+    background-color: turquoise;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    background-color: rgb(241, 241, 241);
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    height: 70%;
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+select,option{
+    padding: 10px 35px;
+    border-radius: 8px;
+    border-color: #C1C3C3;
+    background-color: #ffffff;
+    border-style: solid;
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+    text-align:left;
+}
+
+.button{
+    background-color: turquoise;
+    padding: 8px 16px;
+    text-align: center;
+    border: none;
+    color:black;
+    font-weight: bold;
+    border-radius: 45px;
+}
+
+.FormHeader{
+    display:inline-block;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.logo{
+    object-fit:cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left:0px;
+}
+
+.page{
+    background-color: #99f0e3;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 10px;
+}
+
+.pagelink{
+    text-decoration:none;
+    color: black;
+}
+
+.pagelink:hover{
+    background-color: #99f0e3;
+}
+
+.bar{
+    background-color: #c6fdf4;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 0px
+}
+
+.subtext{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.p1{
+    margin-top: 20px;
+    
+    margin-left: 200px;
+}
+
+.consult_form1{
+    background-color: white;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 25%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box{
+    background-color: white;
+    width: 95%;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+
+.consult_form2{
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form_input1{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #b6b6b6;
+}
+
+.form_input2{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    border: 1px solid #b6b6b6;
+    color: black;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.form_input3{
+    width: 36%;
+    height: 20px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    border: 1px solid #b6b6b6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bold { font-weight: bold; }
+.red { color: #FF0000; }
+
+.msg{
+    font-size:14px;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    border: 1px solid black;
+    width:100%
+}
